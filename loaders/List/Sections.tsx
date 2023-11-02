@@ -1,4 +1,4 @@
-import type { Flex } from "deco/blocks/section.ts";
+import type Flex from "deco/blocks/section.ts";
 import type { VNode } from "../../constants.tsx";
 
 interface Props {

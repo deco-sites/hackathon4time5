@@ -4,7 +4,7 @@ import { color as vnda } from "apps/vnda/mod.ts";
 import { color as vtex } from "apps/vtex/mod.ts";
 import { color as wake } from "apps/wake/mod.ts";
 import { color as linx } from "apps/linx/mod.ts";
-import { Flex } from "deco/blocks/section.ts";
+import Flex from "deco/blocks/section.ts";
 import { App } from "deco/mod.ts";
 import { rgb24 } from "std/fmt/colors.ts";
 import manifest, { Manifest } from "../manifest.gen.ts";

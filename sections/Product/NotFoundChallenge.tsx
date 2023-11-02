@@ -1,4 +1,4 @@
-import type { Flex } from "deco/blocks/section.ts";
+import type Flex from "deco/blocks/section.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 
 export interface Props {

@@ -1,7 +1,6 @@
 import type { Platform } from "$store/apps/site.ts";
 import { SendEventOnClick } from "$store/components/Analytics.tsx";
 import Avatar from "$store/components/ui/Avatar.tsx";
-import WishlistButton from "$store/islands/WishlistButton.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
@@ -154,12 +153,6 @@ function ProductCard(
           }
         `}
         >
-          {platform === "vtex" && (
-            <WishlistButton
-              productGroupID={productGroupID}
-              productID={productID}
-            />
-          )}
         </div>
         {/* Product Images */}
         <a
