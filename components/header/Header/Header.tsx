@@ -1,6 +1,6 @@
-import CtaOne from "$store/components/Cta/CtaOne.tsx";
-import CtaTwo from "$store/components/Cta/CtaTwo.tsx";
-import CtaThree from "$store/components/Cta/CtaThree.tsx";
+import HeaderOne from "$store/components/header/Header/HeaderOne.tsx";
+import HeaderTwo from "$store/components/header/Header/HeaderTwo.tsx";
+import HeaderThree from "$store/components/header/Header/HeaderThree.tsx";
 
 import { useState } from "preact/hooks";
 
@@ -13,9 +13,9 @@ function Island() {
     <>
       <div class="relative flex flex-row">
         <div class = "duration-300 w-full">
-          {count === 0 && <CtaOne />}
-          {count === 1 && <CtaTwo />}
-          {count === 2 && <CtaThree />}
+          {count === 0 && <HeaderOne />}
+          {count === 1 && <HeaderTwo />}
+          {count === 2 && <HeaderThree />}
         </div>
         <aside class="absolute peer right-0 h-full w-[15px] bg-none"></aside>
         <button onClick={change} 
