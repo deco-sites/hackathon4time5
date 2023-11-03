@@ -1,46 +1,19 @@
 import { Fragment, h } from "preact";
 export default function HeaderTwo() {
   return (
-    <div>
-      <title>Website Title</title>
-      <link
-        rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      />
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Website Name</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon" />
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                Home <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <>
+      <div class="flex flex-col items-center justify-center bg-secondary h-[97%] shadow-[0_0_10px_black]">
+        <div class="text-secondary-content text-2xl font-extrabold">
+          <img src="/logo.png" alt="Logo" class="h-8 w-8 inline-block mr-2"/> MyBrand
         </div>
-      </nav>
-      {/* Your content goes here */}
-    </div>
+        <nav class="w-full flex justify-center items-center">
+          <ul class="flex w-[40%] justify-between mr-5">
+            <li><a href="#" class="text-secondary-content text-lg font-bold hover:text-primary-content">Home</a></li>
+            <li><a href="#" class="text-secondary-content text-lg font-bold hover:text-primary-content">Search</a></li>
+            <li><a href="#" class="text-secondary-content text-lg font-bold hover:text-primary-content">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </>
   );
 }

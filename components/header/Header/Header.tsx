@@ -11,8 +11,8 @@ function Island() {
 
   return (
     <>
-      <div class="relative flex flex-row  overflow-hidden">
-        <div class = "duration-300 w-full h-[50px]">
+      <div class="relative flex flex-row overflow-hidden">
+        <div class = "duration-300 w-full h-[100px]">
           {count === 0 && <HeaderOne />}
           {count === 1 && <HeaderTwo />}
           {count === 2 && <HeaderThree />}

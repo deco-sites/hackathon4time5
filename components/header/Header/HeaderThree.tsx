@@ -1,28 +1,12 @@
 import { Fragment, h } from "preact";
-export default function HeaderThree() {
+export default function HeaderOne() {
   return (
-    <div>
-      <title>Website Title</title>
-
-      <header>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      {/* Your content goes here */}
-    </div>
+    <>
+        <div class="flex pl-5 items-center justify-center bg-primary h-[97%] shadow-[0_0_10px_black]">
+            <div class="text-primary-content text-2xl font-extrabold">
+                <img src="/logo.png" alt="Logo" class="h-8 w-8 inline-block mr-2"/> MyBrand
+            </div>
+        </div>
+    </>
   );
 }
