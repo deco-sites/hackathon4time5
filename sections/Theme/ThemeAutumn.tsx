@@ -326,7 +326,7 @@ const defaultTheme = {
   "success": "hsl(84, 43%, 74%)", // Olive green
   "warning": "hsl(35, 57%, 70%)", // Mustard yellow
   "error": "hsl(10, 60%, 70%)", // Rust red
-  "info": "hsl(40, 82%, 84%)" // Amber
+  "info": "hsl(40, 82%, 84%)", // Amber
 
   "--rounded-box": "1rem", // border radius rounded-box utility class, used in card and other large boxes
   "--rounded-btn": "0.2rem" as const, // border radius rounded-btn utility class, used in buttons and similar element
