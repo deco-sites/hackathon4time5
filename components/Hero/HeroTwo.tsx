@@ -9,7 +9,7 @@ export default function HeroTwo({ source }: Props) {
   return (
 
     <Picture>
-    <div class="relative flex items-center justify-center h-[770px] w-full bg-blue-600">
+    <div class="relative flex items-center justify-center h-[760px] shadow-[0_0_10px_black] w-full bg-blue-600">
       <img
         class="absolute h-[770px] w-full max-w-full object-cover -z-10"
         src={source}

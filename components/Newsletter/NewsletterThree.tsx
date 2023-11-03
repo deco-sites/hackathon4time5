@@ -1,7 +1,7 @@
 import { Fragment, h } from "preact";
 export default function NewsletterThree() {
   return (
-    <article class="p-4 bg-tertiary">
+    <article class="p-4 bg-tertiary h-[97%] shadow-[0_0_10px_black]">
       <h2 class="text-2xl text-tertiary-content">Join Our Newsletter</h2>
       <p class="text-lg text-primary-content">
         Subscribe to our newsletter and never miss important updates.

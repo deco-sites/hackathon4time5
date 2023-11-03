@@ -12,14 +12,14 @@ function Island() {
   return (
     <>
       <div class="relative flex flex-row overflow-hidden">
-        <div class = "h-[1000px] duration-300 w-full">
+        <div class = "h-[770px] duration-300 w-full">
           {count === 0 && <HeroOne />}
           {count === 1 && <HeroTwo />}
           {count === 2 && <HeroThree />}
         </div>
         <aside class="absolute peer right-0 h-full w-[15px] bg-none"></aside>
         <button onClick={change} 
-                class="absolute right-0 h-full w-[15px] translate-x-[13px] bg-white 
+                class="absolute right-0 h-[90%] top-[5%] w-[15px] translate-x-[13px] bg-white 
                        transition-transform ease-in-out hover:-translate-x-0 duration-300
                        peer-hover:translate-x-0 rounded-s-lg shadow-[0_0_10px_grey]">
         </button>
