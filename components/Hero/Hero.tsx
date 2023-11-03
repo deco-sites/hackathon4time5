@@ -12,7 +12,7 @@ function Island() {
   return (
     <>
       <div class="relative flex flex-row overflow-hidden">
-        <div class = "h-[1000px] duration-300 w-full">
+        <div class = "h-[770px] duration-300 w-full">
           {count === 0 && <HeroOne />}
           {count === 1 && <HeroTwo />}
           {count === 2 && <HeroThree />}
