@@ -11,8 +11,8 @@ function Island() {
 
   return (
     <>
-      <div class="relative flex flex-row">
-        <div class = "duration-300 w-full">
+      <div class="relative flex flex-row  overflow-hidden">
+        <div class = "md:h-[100px] h-[300px] duration-300 w-full">
           {count === 0 && <FooterOne />}
           {count === 1 && <FooterTwo />}
           {count === 2 && <FooterThree />}
@@ -21,7 +21,7 @@ function Island() {
         <button onClick={change} 
                 class="absolute right-0 h-full w-[15px] translate-x-[13px] bg-white 
                        transition-transform ease-in-out hover:-translate-x-0 duration-300
-                       peer-hover:translate-x-0">
+                       peer-hover:translate-x-0 rounded-s-lg shadow-[0_0_10px_black]">
         </button>
       </div>
     </>

@@ -11,8 +11,8 @@ function Island() {
 
   return (
     <>
-      <div class="relative flex flex-row">
-        <div class = "duration-300 w-full">
+      <div class="relative flex flex-row overflow-hidden">
+        <div class = "h-[300px] duration-300 w-full">
           {count === 0 && <NewsletterOne />}
           {count === 1 && <NewsletterTwo />}
           {count === 2 && <NewsletterThree />}
@@ -21,7 +21,7 @@ function Island() {
         <button onClick={change} 
                 class="absolute right-0 h-full w-[15px] translate-x-[13px] bg-white 
                        transition-transform ease-in-out hover:-translate-x-0 duration-300
-                       peer-hover:translate-x-0">
+                       peer-hover:translate-x-0  shadow-[0_0_10px_black] rounded-s-lg">
         </button>
       </div>
     </>
