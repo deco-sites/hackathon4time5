@@ -11,12 +11,19 @@ function Island() {
 
   return (
     <>
-      <article>
-        {count === 0 && <NewsletterOne />}
-        {count === 1 && <NewsletterTwo />}
-        {count === 2 && <NewsletterThree />}
-      </article>
-      <button onClick={change}>Increment Count</button>
+      <div class="relative flex flex-row">
+        <div class = "duration-300 w-full">
+          {count === 0 && <NewsletterOne />}
+          {count === 1 && <NewsletterTwo />}
+          {count === 2 && <NewsletterThree />}
+        </div>
+        <aside class="absolute peer right-0 h-full w-[15px] bg-none"></aside>
+        <button onClick={change} 
+                class="absolute right-0 h-full w-[15px] translate-x-[13px] bg-white 
+                       transition-transform ease-in-out hover:-translate-x-0 duration-300
+                       peer-hover:translate-x-0">
+        </button>
+      </div>
     </>
   );
 }

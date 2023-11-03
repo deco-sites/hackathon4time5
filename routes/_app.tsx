@@ -13,20 +13,19 @@ export const handler: Handlers = {
   GET(req, ctx) {
     const url = new URL(window.location.href);
     const queryParam = url.searchParams.get("q");
-    let theme;
 
     if (queryParam === "winter") {
-      theme = "winter";
+      const theme = "winter";
     } else if (queryParam === "summer") {
-      theme = "summer";
+      const theme = "summer";
     } else if (queryParam === "fall") {
-      theme = "fall";
+      const theme = "fall";
     } else if (queryParam === "autumn") {
-      theme = "autumn"
+      const theme = "autumn"
     } else if (queryParam === "night") {
-      theme = "night";
+      const theme = "night";
     } else {
-      theme = "default"; // Default theme
+      const theme = "default"; // Default theme
     }
 
     // You can also pass the theme information to your Preact app in the response data.
@@ -46,13 +45,18 @@ function App(props: AppProps) {
     <>
       {/* Include default fonts and css vars */}
 
+      <div>
+        {theme}
+      </div>
+
       {theme === "winter" && <ThemeWinter />}
       {theme === "summer" && <ThemeSummer />}
       {theme === "fall" && <ThemeFall />}
       {theme === "autumn" && <ThemeAutumn />}
       {theme === "night" && <ThemeNight />}
-      {theme === "default" && <ThemeSummer />}
+      {theme === "default" && <Theme />}
 
+      <ThemeWinter />
 
       {/* Include Icons and manifest */}
       <GlobalTags />
