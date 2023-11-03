@@ -1,20 +1,43 @@
-import { Fragment, h } from "preact";
-export default function HeroTwo() {
+import { Picture } from "apps/website/components/Picture.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
+
+export interface Props {
+  source?: ImageWidget;
+}
+
+export default function HeroTwo({ source }: Props) {
   return (
-    <div class="hero relative h-screen">
-      <video
-        class="absolute inset-0 w-full h-full object-cover"
-        autoPlay
-        loop
-        muted
-      >
-        <source src="hero-video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div class="content absolute inset-0 flex flex-col items-center justify-center text-white text-center p-8">
-        <h1 class="text-3xl font-bold">Welcome to Your Website</h1>
-        <p class="text-lg">Your slogan or brief description goes here.</p>
+
+    <Picture>
+    <div class="relative flex items-center justify-center h-[770px] w-full bg-blue-600">
+      <img
+        class="absolute h-[770px] w-full max-w-full object-cover -z-10"
+        src={source}
+        alt="Escolha sua imagem"
+        loading="lazy"
+      />
+
+      <div class="flex w-[340px] flex-col items-center gap-8 md:w-[900px]">
+        <h2 class="text-center font-ClashGrotesk text-4xl font-bold tracking-tight text-white md:text-6xl">
+          Isso aqui é personalizável, massa né?
+        </h2>
+        <p class="text-lg leading-8 text-gray-300">
+          Para ficar do jeito que você quer.
+        </p>
+        <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="#"
+                className="rounded-md bg-gray-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Comece agora
+              </a>
+              <a href="#" className="text-sm font-semibold leading-6 text-white">
+                Saiba como <span aria-hidden="true">→</span>
+              </a>
+            </div>
       </div>
+    
     </div>
+    </Picture>
   );
 }
