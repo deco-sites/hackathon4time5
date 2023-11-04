@@ -1,7 +1,7 @@
 import { Fragment, h } from "preact";
 export default function NewsletterTwo() {
   return (
-    <article class="p-4 bg-secondary h-[97%] shadow-[0_0_10px_black]">
+    <article class="flex flex-col items-center justify-center p-4 bg-secondary h-[97%] shadow-[0_0_10px_black]">
       <h2 class="text-2xl text-secondary-content">
         Sign Up for Our Newsletter
       </h2>
