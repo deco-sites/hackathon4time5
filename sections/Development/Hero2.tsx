@@ -35,7 +35,7 @@ export default function Hero2({ source }: Props) {
               <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-400 ring-1 ring-white/10 hover:ring-white/20">
                 Unlock the Power of Speed.{" "}
                 <a
-                  href="https://deco-sites-hackathon4time5.deno.dev/services"
+                  href="https://deco-sites-hackathon4time5.deno.dev/showcase"
                   class="font-semibold text-white"
                 >
                   <span class="absolute inset-0" aria-hidden="true"></span>{" "}
@@ -51,7 +51,7 @@ export default function Hero2({ source }: Props) {
                 Your Partner for High-Speed Websites.
               </p>
               <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="https://deco-sites-hackathon4time5.deno.dev/services">
+                <a href="https://deco-sites-hackathon4time5.deno.dev/showcase">
                   <button class="flex h-[38px] w-[110px] flex-row gap-2 justify-between px-3 rounded-full border-2 border-[#E0AC65] bg-white p-1">
                     <div>
                       <p class="ml-2 font-bold">Start</p>
