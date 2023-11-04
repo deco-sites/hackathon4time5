@@ -146,7 +146,7 @@ export default function ContactForm({ source }: Props) {
               <div className="mt-10 flex justify-end border-t border-gray-900/10 pt-8">
                 <button
                   type="submit"
-                  className="rounded-md bg-[#E0AC65] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E0AC65]"
+                  className="rounded-md bg-[#E0AC65] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#DB9F4E] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#E0AC65]"
                 >
                   Send message
                 </button>
