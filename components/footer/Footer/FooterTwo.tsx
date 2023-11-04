@@ -1,26 +1,16 @@
 import { Fragment, h } from "preact";
-export default function FooterTwo() {
+export default function FooterThree() {
   return (
     <div>
       <title>Website Title</title>
-
-      {/* Your content goes here */}
-      <footer>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Services</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-        <p>© 2023 YourWebsite.com</p>
+      <link
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      />
+      <footer class="flex flex-col justify-center items-center pt-3">
+          <img src="/logo-coruja.svg" alt="" class = "h-[50px] w-[50px]"/>
+          <p> Change the Footer to toggle Themes</p>
+          <p className="text-xs leading-5 text-gray-500">&copy; 2023 RocketNey. All direitos reservados.</p>
       </footer>
     </div>
   );

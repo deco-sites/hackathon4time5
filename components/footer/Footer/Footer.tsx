@@ -7,15 +7,14 @@ import { useState } from "preact/hooks";
 function Island() {
   const [count, setCount] = useState(0);
 
-  const change = () => setCount((count + 1) % 3);
+  const change = () => setCount((count + 1) % 2);
 
   return (
     <>
       <div class="relative flex flex-row  overflow-hidden">
-        <div class = "md:h-[100px] h-[300px] duration-300 w-full">
+        <div class = "md:h-[150px] duration-300 w-full bg-black">
           {count === 0 && <FooterOne />}
           {count === 1 && <FooterTwo />}
-          {count === 2 && <FooterThree />}
         </div>
         <aside class="absolute peer right-0 h-full w-[15px] bg-none"></aside>
         <button onClick={change} 
