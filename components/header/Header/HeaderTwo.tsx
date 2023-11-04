@@ -8,7 +8,7 @@ export default function HeaderTwo() {
         </div>
         <nav class="w-full flex justify-center items-center">
           <ul class="flex w-[40%] justify-between mr-5">
-            <li><a href="#" class="text-secondary-content text-lg font-bold hover:text-primary-content">Home</a></li>
+            <li><a href="https://deco-sites-hackathon4time5.deno.dev/" class="text-secondary-content text-lg font-bold hover:text-primary-content">Home</a></li>
             <li><a href="#" class="text-secondary-content text-lg font-bold hover:text-primary-content">Search</a></li>
             <li><a href="#" class="text-secondary-content text-lg font-bold hover:text-primary-content">Cart</a></li>
           </ul>

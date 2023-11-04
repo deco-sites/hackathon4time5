@@ -137,13 +137,13 @@ export default function Header() {
             href="https://deco-sites-hackathon4time5.deno.dev/partners"
             class="text-sm font-medium font-ClashGrotesk text-black"
           >
-            PARCERIAS
+            PARTNERS
           </a>
           <a
             href="https://deco-sites-hackathon4time5.deno.dev/contact"
             class="text-sm font-medium font-ClashGrotesk text-black"
           >
-            CONTATO
+            CONTACT US
           </a>
         </div>
       </nav>

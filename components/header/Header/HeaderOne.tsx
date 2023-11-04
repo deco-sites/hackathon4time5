@@ -8,7 +8,7 @@ export default function HeaderOne() {
             </div>
             <nav>
                 <ul class="flex space-x-4 mr-5">
-                    <li><a href="#" class="text-secondary-content text-lg font-bold hover:underline">Home</a></li>
+                    <li><a href="https://deco-sites-hackathon4time5.deno.dev/" class="text-secondary-content text-lg font-bold hover:underline">Home</a></li>
                     <li><a href="#" class="text-secondary-content text-lg font-bold hover:underline">Search</a></li>
                     <li><a href="#" class="text-secondary-content text-lg font-bold hover:underline">Cart</a></li>
                 </ul>
