@@ -7,8 +7,6 @@ export default function FooterThree() {
         rel="stylesheet"
         href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       />
-
-      {/* Your content goes here */}
       <footer class="container-fluid bg-dark text-white text-center">
         <div class="row">
           <div class="col">

@@ -1,0 +1,26 @@
+:root {
+    --primary: hsla(34, 70%, 32%, 1);
+    --primary-content: hsla(0, 0%, 100%, 1);
+    --secondary: hsla(42, 71%, 49%, 1);
+    --secondary-content: hsla(0, 0%, 100%, 1);
+    --tertiary: hsla(24, 83%, 54%, 1);
+    --tertiary-content: hsla(0, 0%, 100%, 1);
+    --neutral: hsla(0, 0%, 47%, 1);
+    --base-100: hsla(0, 0%, 100%, 1);
+    --success: hsl(84, 43%, 74%);
+    --warning: hsl(35, 57%, 70%);
+    --error: hsl(10, 60%, 70%);
+    --info: hsl(40, 82%, 84);
+  
+    --rounded-box: 1rem;
+    --rounded-btn: 0.2rem;
+    --rounded-badge: 1.9rem;
+    --animation-btn: 0.25s;
+    --animation-input: 0.2s;
+    --btn-text-case: uppercase;
+    --btn-focus-scale: 0.95;
+    --border-btn: 1px;
+    --tab-border: 1px;
+    --tab-radius: 0.5rem;
+  }
+  
