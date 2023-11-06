@@ -8,17 +8,6 @@ export interface Props {
 export default function Hero2({ source }: Props) {
   return (
     <div class="bg-gray-900 z-20">
-      <header class="absolute inset-x-0 top-0 z-50">
-        <nav
-          class="flex items-center justify-between p-6 lg:px-8"
-          aria-label="Global"
-        >
-          <div class="flex lg:flex-1"></div>
-          <div class="flex lg:hidden"></div>
-          <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
-        </nav>
-      </header>
-
       <Picture>
         <div class="relative isolate overflow-hidden pt-14">
           <img
